@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📊 Admin Dashboard for Managing Companies and Promotions
 
-## Getting Started
+This project is a modern admin panel built with **Next.js**, designed for efficiently managing companies, categories, countries, and promotions. The interface uses **Tailwind CSS** for a responsive and visually appealing design.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔗 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[🌐 View Live Dashboard](https://next-js-six-blond.vercel.app/dashboard)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🖼️ Screenshots
 
-## Learn More
+### Dashboard Overview
+![Dashboard Overview](/screenshots/dashboard.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Companies List
+![Companies List](/screenshots/companies.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🚀 Features
 
-## Deploy on Vercel
+- **Data overview**: view statistics for the number of companies, categories, promotions, and newly added companies.  
+- **Geographic analysis**: visualize company data by countries.  
+- **Promotion management**: view, create, and edit promotions for each company.  
+- **Responsive design**: works seamlessly on different devices thanks to Tailwind CSS.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## ⚙️ Technologies
+
+- **Next.js** — React framework for server-side rendering and static site generation.  
+- **Tailwind CSS** — utility-first CSS framework for fast and responsive UI development.  
+- **React Query** — library for efficient server state management.  
+- **Formik** — library for building forms in React.
+
+---
+
+## 📬 Contact
+
+- **Author**: [Mariia Soloshenko](https://github.com/your-username)  
+- **Linkedin**: [mariia-soloshenko](https://www.linkedin.com/in/mariia-soloshenko/)
