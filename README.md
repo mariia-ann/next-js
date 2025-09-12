@@ -24,8 +24,7 @@ This project is a modern admin panel built with **Next.js**, designed for effici
 
 - **Data overview**: view statistics for the number of companies, categories, promotions, and newly added companies.  
 - **Geographic analysis**: visualize company data by countries.  
-- **Promotion management**: view, create, and edit promotions for each company.  
-- **Responsive design**: works seamlessly on different devices thanks to Tailwind CSS.
+- **Promotion management**: view, create, and edit promotions for each company.
 
 ---
 
