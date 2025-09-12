@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import { Form, Formik } from 'formik';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { createPromotion, getCompany } from '@/lib/api';
@@ -53,6 +52,8 @@ export default function PromotionForm({
   });
 
   const handleSubmit = async (values: PromotionFieldValues) => {
+    if (!company) return;
+    
     await mutateAsync({
       ...values,
       discount: Number(values.discount) || 0,

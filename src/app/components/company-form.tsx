@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import { Form, Formik } from 'formik';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import {
@@ -61,6 +60,9 @@ export default function CompanyForm({ onSubmit }: CompanyFormProps) {
   });
 
   const handleSubmit = async (values: CompanyFieldValues) => {
+    if (!categories) return;
+    if (!countries) return;
+
     await mutateAsync({
       ...values,
       categoryTitle:

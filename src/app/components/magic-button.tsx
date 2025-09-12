@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Button, { ButtonProps } from '@/app/components/button';
 
 export default function MagicButton(props: ButtonProps) {
