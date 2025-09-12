@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { getPromotions } from '@/lib/api';
 import Promotion from '@/app/components/promotion';
