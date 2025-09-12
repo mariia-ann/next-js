@@ -16,7 +16,7 @@ This project is a modern admin panel built with **Next.js**, designed for effici
 ![Dashboard Overview](/public/screenshots/dashboard.png)
 
 ### Companies List
-![Companies List](/screenshots/companies.png)
+![Companies List](/public/screenshots/companies.png)
 
 ---
 
